@@ -1,0 +1,20 @@
+{
+	"name": "babel-node-skeleton",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/keval8solanki/babel-node-skeleton.git",
+	"author": "Keval Solanki <keval8solanki@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "babel-node src/index.js",
+		"dev": "nodemon --exec babel-node src/index"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/node": "^7.12.10",
+		"@babel/preset-env": "^7.12.11"
+	}
+}
